@@ -7,6 +7,7 @@ CREATE TABLE books (
     publication_date DATE,
     FOREIGN KEY (author_id) REFERENCES authors(author_id)
 );
+USE alx_book_store;
 
 -- Create the Authors table
 CREATE TABLE authors (
